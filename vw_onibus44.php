@@ -1,4 +1,7 @@
-<table>
+<link rel="stylesheet" href="asset/css/bootstrap.css">
+<link rel="stylesheet" href="asset/css/bootstrap.min.css">
+
+<table class="table table-bordered table-hover table-striped tablesorter">
 	<tr>
 		<td>1</td>
 		<td>2</td>
