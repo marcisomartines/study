@@ -1,9 +1,5 @@
 <?php
 require_once 'config.php';
-$teste=$db->query("SELECT * FROM tb_clients");
-
-$teste2=$teste->fetch_object();
-var_dump($teste2);
 ?>
 
 <link rel="stylesheet" href="asset/css/bootstrap.css">
