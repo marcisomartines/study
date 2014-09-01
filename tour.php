@@ -6,6 +6,8 @@ $query=$db->query("SELECT * FROM tb_tour
 ?>
 <link rel="stylesheet" href="asset/css/bootstrap.css">
 <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+<form action="lista.php" method="post">
+<label>Destino: </label>
 <?php
 while($row=$query->fetch_object())
 {
@@ -14,3 +16,5 @@ while($row=$query->fetch_object())
 	<?php
 }
 ?>
+<input type="submit" value="Continuar" class="btn btn-primary">
+</form>
