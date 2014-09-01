@@ -3,76 +3,76 @@
 
 <table class="table table-bordered table-hover table-striped tablesorter">
 	<tr>
-		<td>1</td>
-		<td>2</td>
-		<td>CORREDOR</td>
-		<td>4</td>
-		<td>3</td>
+		<td class="success">1</td>
+		<td class="success">2</td>
+		<td class="success">CORREDOR</td>
+		<td class="success">4</td>
+		<td class="success">3</td>
 	</tr>
 	<tr>
-		<td>5</td>
-		<td>6</td>
+		<td class="success">5</td>
+		<td class="success">6</td>
 		<td rowspan="10">
 		<td colspan="2">ESCADA</td>
 	</tr>
 	<tr>
-		<td>9</td>
-		<td>10</td>
-		<td>8</td>
-		<td>7</td>
+		<td class="success">9</td>
+		<td class="success">10</td>
+		<td class="success">8</td>
+		<td class="success">7</td>
 	</tr>
 	<tr>
-		<td>13</td>
-		<td>14</td>
-		<td>12</td>
-		<td>11</td>
+		<td class="success">13</td>
+		<td class="success">14</td>
+		<td class="success">12</td>
+		<td class="success">11</td>
 	</tr>
 	<tr>
-		<td>17</td>
-		<td>18</td>
-		<td>16</td>
-		<td>15</td>
+		<td class="success">17</td>
+		<td class="success">18</td>
+		<td class="success">16</td>
+		<td class="success">15</td>
 	</tr>
 	<tr>
-		<td>21</td>
-		<td>22</td>
-		<td>20</td>
-		<td>19</td>
+		<td class="success">21</td>
+		<td class="success">22</td>
+		<td class="success">20</td>
+		<td class="success">19</td>
 	</tr>
 	<tr>
-		<td>25</td>
-		<td>26</td>
-		<td>24</td>
-		<td>23</td>
+		<td class="success">25</td>
+		<td class="success">26</td>
+		<td class="success">24</td>
+		<td class="success">23</td>
 	</tr>
 	<tr>
-		<td>29</td>
-		<td>30</td>
-		<td>28</td>
-		<td>27</td>
+		<td class="success">29</td>
+		<td class="success">30</td>
+		<td class="success">28</td>
+		<td class="success">27</td>
 	</tr>
 	<tr>
-		<td>33</td>
-		<td>34</td>
-		<td>32</td>
-		<td>31</td>
+		<td class="success">33</td>
+		<td class="success">34</td>
+		<td class="success">32</td>
+		<td class="success">31</td>
 	</tr>
 	<tr>
-		<td>37</td>
-		<td>38</td>
-		<td>36</td>
-		<td>35</td>
+		<td class="success">37</td>
+		<td class="success">38</td>
+		<td class="success">36</td>
+		<td class="success">35</td>
 	</tr>
 	<tr>
-		<td>41</td>
-		<td>42</td>
-		<td>40</td>
-		<td>39</td>
+		<td class="success">41</td>
+		<td class="success">42</td>
+		<td class="success">40</td>
+		<td class="success">39</td>
 	</tr>
 	<tr>
-		<td>43</td>
-		<td>44</td>
-		<td>GELADEIRA</td>
+		<td class="success">43</td>
+		<td class="success">44</td>
+		<td class="success">GELADEIRA</td>
 		<td colspan="2">Banheiro</td>
 	</tr>
 </table>
