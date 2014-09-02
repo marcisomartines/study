@@ -1,3 +1,7 @@
+<?php
+require_once 'config.php';
+
+?>
 <link rel="stylesheet" href="asset/css/bootstrap.css">
 <link rel="stylesheet" href="asset/css/bootstrap.min.css">
 

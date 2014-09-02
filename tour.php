@@ -12,7 +12,7 @@ $query=$db->query("SELECT * FROM tb_tour
 while($row=$query->fetch_object())
 {
 	?>
-	<input type="radio" name="tour" value="<?=$row->id_tour?>"><?=$row->destino?> - <?=$row->data_saida?><br>
+	<input type="radio" name="id_tour" value="<?=$row->id_tour?>"><?=$row->destino?> - <?=$row->data_saida?><br>
 	<?php
 }
 ?>

@@ -1,6 +1,6 @@
 <?php
 require_once 'config.php';
-$id_tour=$_POST['tour'];
+$id_tour=$_POST['id_tour'];
 
 $query=$db->query("SELECT * FROM tb_tour
 				   JOIN tb_cars on tb_cars.id_cars=tb_tour.id_car 
