@@ -5,13 +5,10 @@ $sql="INSERT INTO tb_clients (nome,cidade,telefone,rg) VALUES ('".$_POST['nome']
 
 $query=$db->query($sql);
 
-echo $db->insert_id;
+$id_client=$db->insert_id;
 
-echo "------<br>";
-$sql2="SELECT MAX(id_clients) as id_clients FROM tb_clients";
+$reserva="INSERT INTO tb_reservs (nr_poltrona, tipo, id_tour, id_client,loc_embarque) VALUES ('".$_POST['nr_poltrona']."','d','".$_POST['id_tour']."','".$id_client."','RESERVA FEITA PELO SITE')";
 
-$client=$db->query($sql2);
+$query=$db->query($reserva);
 
-$cliente=$client->fetch_object();
-
-echo $cliente->id_clients;
+header ('Location: tour.php');
