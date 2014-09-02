@@ -15,6 +15,10 @@ require_once 'config.php';
 		<td><label>RG: </label></td>
 		<td><input type="text" id="rg" name="rg" required><br></td>
 	</tr>
+	<tr>
+		<td><label>Telefone: </label></td>
+		<td><input type="text" id="telefone" name="telefone" required><br></td>
+	</tr>
 </table>
 <input type="submit" value="CADASTRAR" class="btn btn-primary">
 </form>

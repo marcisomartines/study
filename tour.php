@@ -7,7 +7,7 @@ $query=$db->query("SELECT * FROM tb_tour
 <link rel="stylesheet" href="asset/css/bootstrap.css">
 <link rel="stylesheet" href="asset/css/bootstrap.min.css">
 <form action="lista.php" method="post">
-<label>Destino: </label>
+<label>Destino: </label><br>
 <?php
 while($row=$query->fetch_object())
 {
