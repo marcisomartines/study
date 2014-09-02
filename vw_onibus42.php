@@ -6,6 +6,17 @@ require_once 'config.php';
 
 <table class="table table-bordered table-hover table-striped tablesorter">
     <tr><!--Linha 1-->
+    <?php
+    $query=$db->query("SELECT * FROM tb_reservs WHERE id_tour=".$_POST['id_tour']." AND nr_poltrona=1");
+    if($query->num_rows>0)
+    {
+    ?>
+        <td class="danger">
+            <button class="btn btn-danger btn-xs pull-right">01</button>
+        </td>
+        <?php 
+        }else{ 
+        ?>
         <td class="success">
             <form method="post" action="reserva.php">
                 <input type="hidden" name="nr_poltrona" value="1" />
@@ -13,6 +24,9 @@ require_once 'config.php';
                 <input type="submit" class="btn btn-success btn-xs pull-right" value="01">
             </form>
         </td>
+        <?php 
+    } 
+        ?>
         <td class="success">
             <form method="post" action="reserva.php">
                 <input type="hidden" name="nr_poltrona" value="2" />
