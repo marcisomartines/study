@@ -1,7 +1,7 @@
 <?php
 require_once 'config.php';
 echo "passou aqui<br>";
-$sql="INSERT INTO tb_clients (nome,cidade,telefone,rg) VALUES ('".$_POST['nome']."','".$_POST['cidade']."','".$_POST['telefone']."','".$_POST['rg']."')";
+$sql="INSERT INTO tb_clients (nome,cidade,celular,rg) VALUES ('".$_POST['nome']."','".$_POST['cidade']."','".$_POST['telefone']."','".$_POST['rg']."')";
 
 $query=$db->query($sql);
 
