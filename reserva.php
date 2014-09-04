@@ -27,5 +27,5 @@ require_once 'config.php';
 </table>
 <input type="hidden" name="id_tour" id="id_tour" value="<?=$_POST['id_tour']?>">
 <input type="hidden" name="nr_poltrona" id="nr_poltrona" value="<?=$_POST['nr_poltrona']?>">
-<input type="submit" value="CADASTRAR" class="btn btn-primary">
+<input type="submit" value="Concluir" class="btn btn-primary">
 </form>

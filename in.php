@@ -11,4 +11,4 @@ $reserva="INSERT INTO tb_reservs (nr_poltrona, tipo, id_tour, id_client,loc_emba
 
 $query=$db->query($reserva);
 
-header ('Location: tour.php');
+header ('Location: index.php');
