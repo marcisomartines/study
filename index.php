@@ -1,3 +1,4 @@
+
 <?php
 require_once 'config.php';
 $query=$db->query("SELECT * FROM tb_tour 
