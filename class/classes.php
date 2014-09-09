@@ -10,3 +10,7 @@ class teste{
 		return $this->atributo;
 	}
 }
+
+class f extends teste{
+
+}
