@@ -2,13 +2,19 @@
 <head>
 	<title>Teste com o fundation</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<script src="js/vendor/jquery.js"></script>
-	<script src="js/foundation.min.js"></script>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/foundation.css">
 	<link rel="stylesheet" href="css/foundation.min.css">
 </head>
 <body>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+	<script src="js/foundation/foundation.js"></script>
+	<script src="js/foundation/foundation.topbar.js"></script>
+
+	<script>
+		$(document).foundation();
+	</script>
 	<nav class="top-bar" data-topbar role="navigation">
 		<ul class="title-area">
 			<li class="name">
