@@ -26,5 +26,12 @@
 	<div class="small-6 columns">
 		<a href="#" class="button round success expand">Canto arredondado</a>
 	</div>
+
+	<div class="large-12 columns">
+	<input type="text" name="teste" id="teste">
+	</div>
+	<div class="small-6 columns pull-left">
+	<input type="text" name="teste" id="teste">
+	</div>
 </body>
 </html>
