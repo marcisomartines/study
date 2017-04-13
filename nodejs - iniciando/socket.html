@@ -1,0 +1,15 @@
+<script>
+    var socket = new WebSocket('ws://localhost:3000');
+
+    socket.onopen = function() {
+        socket.send('estou aberto para o cliente');
+    }
+
+    socket.onmessage = function(message) {
+        console.log(message);
+    };
+
+    socket.onerror = function(erro) {
+        console.log('Erro -> ', erro);
+    };
+</script>
